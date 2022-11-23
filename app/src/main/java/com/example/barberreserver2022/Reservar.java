@@ -4,12 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
+import android.content.Intent;
+import android.database.sqlite.SQLiteException;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TimePicker;
+import android.widget.Toast;
 
 import com.example.barberreserver2022.Database.DataBaseQueryReservar;
 import com.example.barberreserver2022.Database.DatabaseHelper;
@@ -55,7 +58,14 @@ public class Reservar extends AppCompatActivity implements View.OnClickListener 
 
                 DataBaseQueryReservar db = new DataBaseQueryReservar(getBaseContext());
                 db.insertaReserva(reservaNueva);
+
+                Toast.makeText(getApplicationContext(), " ¡Reserva guardada Con exito! ", Toast.LENGTH_LONG).show();
+
+                Intent i = new Intent( Reservar.this, Labarberia.class);
+                startActivity(i);
+
             }
+
         });
     }
 
