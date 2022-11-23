@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class principal extends AppCompatActivity {
+public class Principal extends AppCompatActivity {
 
     Button reservar;
     Button barberos;
@@ -25,7 +25,7 @@ public class principal extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i = new Intent( principal.this, Reservar.class);
+                Intent i = new Intent( Principal.this, Reservar.class);
                 startActivity(i);
 
             }
@@ -38,7 +38,7 @@ public class principal extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i = new Intent( principal.this, barberos.class);
+                Intent i = new Intent( Principal.this, Barberos.class);
                 startActivity(i);
 
             }
@@ -51,7 +51,20 @@ public class principal extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i = new Intent( principal.this, ubicacion.class);
+                Intent i = new Intent( Principal.this, Maps.class);
+                startActivity(i);
+
+            }
+        });
+
+        //BOTON LaBarberia
+        ubicacion=(Button)findViewById(R.id.btn_labarberia);
+
+        ubicacion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent i = new Intent( Principal.this, Labarberia.class);
                 startActivity(i);
 
             }

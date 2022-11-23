@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class Login extends AppCompatActivity {
 
     Button login;
     Button registrar;
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i = new Intent( MainActivity.this, principal.class);
+                Intent i = new Intent( Login.this, Principal.class);
                 startActivity(i);
 
             }
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i = new Intent(MainActivity.this, registrar.class);
+                Intent i = new Intent(Login.this, Registrar.class);
                 startActivity(i);
 
             }

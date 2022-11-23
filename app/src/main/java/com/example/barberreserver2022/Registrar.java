@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class registrar extends AppCompatActivity {
+public class Registrar extends AppCompatActivity {
 
     Button registrarse;
 
@@ -23,7 +23,7 @@ public class registrar extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i = new Intent( registrar.this, MainActivity.class);
+                Intent i = new Intent( Registrar.this, Login.class);
                 startActivity(i);
 
             }

@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class barberos extends AppCompatActivity {
+public class Barberos extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

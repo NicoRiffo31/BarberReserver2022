@@ -4,50 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".barberos">
+    tools:context=".Barberos">
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="104dp"
-        android:layout_height="105dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="12dp"
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="244dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="328dp"
+        android:text="Dan Gregory"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.976"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:srcCompat="@drawable/perfil" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="104dp"
-        android:layout_height="105dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="12dp"
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="244dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="212dp"
+        android:text="Arod the Barber"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.976"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:srcCompat="@drawable/perfil" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="244dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="100dp"
+        android:text="Mr Bee Wiseman"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.976"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="232dp"
         android:layout_height="71dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="16dp"
-        android:text="Soy un tipo de trabajador que está acostumbrado al trabajo bajo presión, tengo varios años de experiencia en atención al cliente y en búsqueda de oportunidades comerciales. También me considero una persona resolutiva, con buen ánimo y capaz de resolver problemas fácilmente."
+        android:text="Tengo un sentido artístico y creativo. Admiro el color y la forma. Mantengo al día de las nuevas tendencias, productos, técnicas y métodos"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.742"
-        app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="232dp"
         android:layout_height="71dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="16dp"
-        android:text="Soy un tipo de trabajador que está acostumbrado al trabajo bajo presión, tengo varios años de experiencia en atención al cliente y en búsqueda de oportunidades comerciales. También me considero una persona resolutiva, con buen ánimo y capaz de resolver problemas fácilmente."
+        android:text="Llevo en el negocio desde que tenía 14 años, lo que le ha permitido ser el encargado del estilo de muchas celebridades como Daniel Radcliffe"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.742"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <TextView
@@ -57,6 +72,7 @@
         android:layout_marginTop="16dp"
         android:text="Equipo de trabajo"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
@@ -74,21 +90,43 @@
         android:id="@+id/textView9"
         android:layout_width="232dp"
         android:layout_height="71dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="16dp"
-        android:text="Soy un tipo de trabajador que está acostumbrado al trabajo bajo presión, tengo varios años de experiencia en atención al cliente y en búsqueda de oportunidades comerciales. También me considero una persona resolutiva, con buen ánimo y capaz de resolver problemas fácilmente."
+        android:text="Soy un tipo de trabajador que está acostumbrado al trabajo bajo presión, tengo varios años de experiencia en barberias"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="104dp"
-        android:layout_height="105dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="137dp"
+        android:layout_height="277dp"
+        android:layout_marginBottom="224dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/barbero1" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="138dp"
+        android:layout_height="253dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView10"
+        app:layout_constraintHorizontal_bias="0.64"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:srcCompat="@drawable/perfil" />
+        app:srcCompat="@drawable/barbero2" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="139dp"
+        android:layout_height="245dp"
+        android:layout_marginTop="172dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView11"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/barbero3" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
